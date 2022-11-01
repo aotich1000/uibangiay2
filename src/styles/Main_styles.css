@@ -1,0 +1,297 @@
+*{
+    font-family: Arial;
+}
+* a{
+  text-decoration: none;      
+}
+
+.container-fluid{
+    padding: 0 0 0 0;
+    margin-right: 25px;
+}
+
+.Header{
+    background-color: #84b5ee;
+}
+
+.Header-action{
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+}
+
+.Header-action-items{
+    margin-left: 15px;
+    align-self: center;
+}
+
+.Search-area{
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-area input{
+    border: 2px solid #1234;
+    padding: 5px 10px 5px 40px;
+    line-height: 15px;
+    /* display: block;
+    width: 100%;
+    outline: 0; */
+}
+
+.Search-ico{
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.top-bar{
+    background-color: #0f0d0d;
+}
+
+
+.User-ico button{
+    border: none;
+    background-color: white;
+}
+
+.top-bar-items button{
+    border: none;
+    color: white;
+    background-color: #0f0d0d;
+    right: 0;
+}
+
+.Header-logo{
+    margin-left: 15px;
+}
+
+.card-product{
+    max-width: 15.25em;
+    margin-bottom: 5px;
+}
+
+
+.card-product button{
+    margin: 3px;
+    font-size: 13px;
+}
+
+.banner-content{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-item{
+}
+
+.banner-item img{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.new-product-title{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.new-product-title h1{
+    font-family: 'Jura', sans-serif;
+}
+
+.swiper-wrapper{
+    margin-bottom: 40px;
+}
+
+.login-area{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form{
+    width: 30%;
+}
+
+.count-pro{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: -7px;
+    font-size: 10px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.ico-size{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body p{
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.top-bar-items{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.top-bar-items a{
+    color: white;
+    width: 6%;
+    text-align: center;
+}
+
+.DP-Content{
+    display: flex;
+}
+
+.big-img{
+
+}
+
+.DP-detail{
+    border-left: 1px solid #cecece;
+}
+
+.size-select{
+    margin-right: 5px;
+    --bs-btn-bg: white;
+    --bs-btn-color: black;
+    --bs-btn-border-color: black;
+}
+
+.btn-add-cart{
+    margin-top: 15px;
+}
+
+.btn-add-cart button{
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-padding-y: 0.5rem;
+}
+
+.re-size-input{
+    max-width: 100px;
+}
+
+.footer{
+    margin-top: 50px;
+    border: 1px;
+    box-shadow: 5px 10px #000 5px;
+    height: auto;
+    width: 100%;
+    border-top: #ccc solid 1px;
+  }
+  .create-by{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .create-by p{
+    text-align: center;
+  }
+  .another-thing{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .another-thing div{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+  }
+  .another-thing a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+  
+  }
+  
+  .another-thing ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .another-thing li{
+    margin-top: 3px;
+  }
+
+  .space-ico{
+    margin-right: 15px;
+  }
+
+  .for-Male-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .for-Male-category{
+    padding: 5px 5px 5px 5px;
+    background-color: #f5fcff;
+    border-bottom: 1px solid #e2dede; 
+  }
+  .for-Male-category a{
+    margin-right: 15px;
+    color: rgb(85, 85, 85);
+  }
+  .acive, .for-Male-category a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+.for-Male-item{
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+}
+.more a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.login-form{
+    padding: 15px;
+}
+.login-form h2{
+    display: flex;
+    justify-content: center;
+}
