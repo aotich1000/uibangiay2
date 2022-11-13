@@ -13,8 +13,8 @@ function Header() {
         <div className='Header'>
             <div className='top-bar'>
                 <div className='top-bar-items'>
-                    <Link to='login'>Đăng nhập</Link>
-                    <Link to='reg'>Đăng ký</Link>
+                    <Link to='/login'>Đăng nhập</Link>
+                    <Link to='/reg'>Đăng ký</Link>
                 </div>
             </div>
             <Navbar bg="light" expand="lg">
@@ -43,7 +43,7 @@ function Header() {
                             </div>
                            
                         <div className='Header-action-items User-ico'>
-                            <Link to="/" ><BsFillPersonFill className='ico-size' /></Link>
+                            <Link to="/user-mn" ><BsFillPersonFill className='ico-size' /></Link>
                         </div>
                         <div className='Header-action-items User-ico'>
                             <Link to="/"><BsCart2 className='ico-size'/></Link>

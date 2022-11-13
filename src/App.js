@@ -24,6 +24,8 @@ import {
 import Home from './Pages/Home';
 import Product_detail from './Pages/Product_detail';
 import Footer from './component/Footer/Footer';
+import UserManager from './component/User-manager/User_manager';
+import ListProduct from './Pages/List_product';
 
 function App() {
   return (
@@ -32,9 +34,13 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="reg" element={<Login />} />
-        <Route path='dp' element={<Product_detail />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/reg" element={<Login />} />
+        <Route path='product/dp' element={<Product_detail />} />
+        <Route path='/user-mn' element={<UserManager/>} />
+        <Route path='/product' element={<ListProduct/>}>
+          <Route path='product/dp' element={<Product_detail />} />
+        </Route>
       </Routes>
       <Footer/>
     </BrowserRouter>  

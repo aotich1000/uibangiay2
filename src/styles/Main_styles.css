@@ -2,13 +2,17 @@
     font-family: Arial;
 }
 * a{
-  text-decoration: none;      
+  text-decoration: none;     
+  color: black;
+}
+* ul{
+    list-style-type: none;   
 }
 
 .container-fluid{
     padding: 0 0 0 0;
     margin-right: 25px;
-}
+}   
 
 .Header{
     background-color: #84b5ee;
@@ -208,10 +212,11 @@
 .footer{
     margin-top: 50px;
     border: 1px;
-    box-shadow: 5px 10px #000 5px;
     height: auto;
     width: 100%;
     border-top: #ccc solid 1px;
+    
+    bottom:0;
   }
   .create-by{
     position: relative;
@@ -255,7 +260,7 @@
     margin-right: 15px;
   }
 
-  .for-Male-content{
+  .ListItem-content{
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
@@ -274,7 +279,7 @@
     color: rgb(0, 0, 0);
   }
 
-.for-Male-item{
+.ListItem{
     margin-right: 7.5px;
     margin-left: 7.5px;
 }
@@ -294,4 +299,67 @@
 .login-form h2{
     display: flex;
     justify-content: center;
+}
+
+.container-mnu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-menu{
+    width: 25%;
+}
+.container-mnu li{
+    margin-top: 5px;
+}
+
+.content-mnu{
+    padding: 0 0 0 15px;
+    border-left: solid 1px rgb(191, 189, 189);
+    width: 75%;
+    min-height: 750px;
+}
+
+.qltk {
+    min-height: 750px
+}
+.User-title {
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding-bottom: 15px;
+}
+.User-title img{
+    width: 15%;
+    border-radius: 25%;
+    margin: 0 15px 0 15px;
+
+}
+.dieu_huong
+{
+    background-color: rgba(209, 228, 251, 0.267);
+}
+
+.btn-mn-u {
+    min-width: 125px;
+    margin-right: 15px;
+}
+
+
+.List-container{
+    display: flex;
+}
+
+.tim-kiem-nang-cao{
+    width: 20%;
+}
+
+.content-list-product{
+    width: 80%;
+}
+
+.Pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.Pagination button{
+    margin-left: 2px;
 }

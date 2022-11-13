@@ -1,18 +1,24 @@
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import c1 from '../Images/card.jpg';
 import { BsPlusCircle } from "react-icons/bs";
+import { MdFormatListNumbered } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+// import { NumericFormat } from 'react-number-format';
 
-function Card_product() {
+
+
+function Card_product(props) {
+
+  // const [CardState,setCardState] = useState();
+
   return (
-    
     <Card className='card-product'>
-      <Card.Img variant="top" src={c1} />
+      <Card.Img variant="top" src={props.img} />
       <Card.Body>
-        <Card.Title><Link to={'dp'}>Adios Cat</Link></Card.Title>
+        <Card.Title><Link to={'/product/dp'}>{props.name}</Link></Card.Title>
         <Card.Text>
-          12.000.000 đ
+          {props.price}
         </Card.Text>
         <Button variant="primary"><BsPlusCircle/> Buy Now</Button>
         <Button variant="primary"><BsPlusCircle/> Add Cart</Button>
